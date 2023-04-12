@@ -28,20 +28,31 @@ Use sua criatividade para compor e desenvolver seu site com os seguintes itens:
 
 ** Tópico 2: Desenvolver componentes em uma interface **
 2.1 Renderize os elementos usando ReactDOM (render/createRoot);
+
 2.2 Crie 5 componentes ReactJS e renderize-os na tela;
+
 2.3 Adicione estilos diferentes aos 5 componentes;
+
 2.4 Use JSX.
 
 ** Tópico 3: Apresentar dados dinâmicos em uma interface ReactJS **
 3.1 Renderize os dados de um objeto em um componente React;
+
 3.2 Renderize as propriedades de um componente React;
+
 3.3 Componha um componente a partir da combinação de outros componentes;
+
 3.4 Propague dados através de componentes usando propriedades;
+
 3.5 Manipule o estado interno de um componente;
+
 3.6 Use a função fetch para carregar dados provenientes de um arquivo JSON e com eles configure estados e propriedades;
+
 3.7 Use async/await para realizar chamadas assíncronas.
 
 ** Tópico 4: Implementar condicionais e lista em uma aplicação ReactJS **
 4.1 Adapte um componente de acordo com uma condicional;
+
 4.2 Mostre os dados de uma lista;
+
 4.3 Use propriedades, estados, condicionais e loops.
