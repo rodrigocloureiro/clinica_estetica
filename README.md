@@ -8,7 +8,7 @@ Site de uma Clínica de Estética em React para um Trabalho da Faculdade
 # O projeto deveria seguir os seguintes requisitos:
 
 Você foi contratado(a) para desenvolver um site em ReactJS para uma clínica de estética. Seu projeto deve apresentar dados dinâmicos em uma interface. 
-Use sua criatividade para compor seu site com os seguintes itens:
+Use sua criatividade para compor e desenvolver seu site com os seguintes itens:
 
 ** Tópico 1: Utilizar Javascript para desenvolver aplicações ReactJS **
 
