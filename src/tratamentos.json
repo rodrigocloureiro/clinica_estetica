@@ -1,0 +1,66 @@
+[
+    { 
+        "id": 1,
+        "nome": "Criopólise",
+        "descricao": "Reduza a gordura localizada utilizando este tratamento não evasivo com baixas temperaturas.",
+        "contraindicacao": "Gestação, hérnia no local, urticária ao frio e crioglobulinemia (doenças relacionadas ao frio, pois se trata de uma técnica que tem como base o congelamento).",
+        "valor": "1.7999,90",
+        "imagem": "https://maisonregato.com.br/img/tratamento_criopolise.jpg"
+    },
+    { 
+        "id": 2,
+        "nome": "Light Sheer Desire",
+        "descricao": "Remova seus pelos com agilidade e praticamente sem dor com o melhor laser de depilção do mundo.",
+        "contraindicacao": "Portadores de Hipertensão não controlada, indivíduos com Vitiligo, pessoas com câncer e no processo de tratamento da doença, pessoas com Epilepsia.",
+        "valor": "499,99",
+        "imagem": "https://maisonregato.com.br/img/tratamentos_laser_lightshee_duet.jpg"
+    },
+    { 
+        "id": 3,
+        "nome": "Criofrequência",
+        "descricao": "Eficaz no tratamento da gordura localizada, ajuda na redução da flacidez e ameniza celulites.",
+        "contraindicacao": "Pessoas que possuem marcapasso, grávidas, pessoas com dermatite ou epilepsia, pessoas com câncer, quem estiver fazendo uso de corticóides ou possuir implantes de metal e/ou silicone na zona a ser tratada.",
+        "valor": "690,00",
+        "imagem": "https://maisonregato.com.br/img/tratamento_criofrequencia.jpg"
+    },
+    { 
+        "id": 4,
+        "nome": "Ondas de Choque",
+        "descricao": "É uma técnica não-invasiva que promove a estimulação mecânica através de ondas/impulsos acústicos de alta intensidade de energia. Remodela os “amassados” (celulite), deixando a pele da paciente lisa e sem vestígios.",
+        "contraindicacao": "PROIBIDO para gestantes e crianças. Não são indicadas para pacientes que sofrem com outros problemas na região onde o tratamento se faz necessário como infecções.",
+        "valor": "690,90",
+        "imagem": "https://maisonregato.com.br/img/tc_ondas_choque.jpg"
+    },
+    { 
+        "id": 5,
+        "nome": "Esfoliação Corporal",
+        "descricao": "Afina e suaviza a textura da pele;atenua e uniformiza imperfeições. Promove uma melhor e mais fácil absorção dos cosméticos, já que os poros ficam desobstruídos.",
+        "contraindicacao": "Locais do corpo edemaciados, dermatites, inflamações agudas cutâneas, febre / gripes em geral, hematomas recentes, trombose venosa profunda, feridas abertas, tumores e sobre abdômen de gestantes.",
+        "valor": "195,90",
+        "imagem": "https://maisonregato.com.br/img/tc_esfoliacao_corporal.jpg"
+    },
+    { 
+        "id": 6,
+        "nome": "Doublo-S",
+        "descricao": "O Doublo-S é a melhor alternativa, não cirúrgica, para a melhora da flacidez e possibilita uma aparência mais jovem.",
+        "contraindicacao": "Não deve ser utilizado em gestantes, em regiões com feridas abertas, acne grave ativa, onde há implantes, queloides e preenchedores.",
+        "valor": "3199,90",
+        "imagem": "https://maisonregato.com.br/img/tratamentos_doublous.jpg"
+    },
+    { 
+        "id": 7,
+        "nome": "Neurodyn Facial",
+        "descricao": "Estimula o fortalecimento muscular, melhorando o contorno facial. Indicada para atenuar a flacidez muscular.",
+        "contraindicacao": "Não há.",
+        "valor": "1750,00",
+        "imagem": "https://maisonregato.com.br/img/tratamentos_neurodyn_facial.jpg"
+    },
+    { 
+        "id": 8,
+        "nome": "Massagem Modeladora Facial",
+        "descricao": "Ativa o metabolismo local, aumenta a circulação sanguínea, e melhora da aparência e aspecto da pele.",
+        "contraindicacao": "Não há.",
+        "valor": "99,90",
+        "imagem": "https://maisonregato.com.br/img/tratamentos_massagem_modeladora.jpg"
+ }
+]

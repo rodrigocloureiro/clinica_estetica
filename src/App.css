@@ -1,0 +1,307 @@
+/*
+  Paleta de cores:
+    Rosa claro: #F6CED8
+    Lilás: #C8A2C8
+    Verde-água suave: #A2D9D0
+    Branco: #FFFFFF
+    Bege: #F5F5DC
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+* {
+  font-family: 'Bad Script', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F1F2ED;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #A2D9D0;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+header nav ul li a:hover {
+  color: #C8A2C8;
+  text-decoration: underline;
+}
+
+header nav ul li:not(:last-child) {
+  margin: 0 10px 0 0;
+}
+
+.icons {
+  display: flex;
+  font-size: 26px;
+  column-gap: 10px;
+}
+
+.icons .fa-facebook {
+  color: #F6CED8;
+}
+
+.icons .fa-instagram {
+  color: #A2D9D0;
+}
+
+.icons .fa-whatsapp {
+  color: #C8A2C8;
+}
+
+main {
+  margin: 0 0 40px 0;
+}
+
+main h1 {
+  font-size: 1.3em;
+  text-align: center;
+  color: #A2D9D0;
+  margin: 25px 0 10px 0;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #C8A2C8;
+  margin: 0 0 25px 0;
+}
+
+main .cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+/* TRATAMENTOS */
+
+main .card {
+  width: 280px;
+  transition: .5s;
+}
+
+main .card:hover {
+  transform: scale(1.1);
+}
+
+main .top {
+  height: 200px;
+  position: relative;
+  box-shadow: 0px 2px 8px 0px #00000033;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+main .top img {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+main .top p {
+  position: absolute;
+  bottom: 5px;
+  color: #1E1E1E;
+  font-size: 2em;
+  align-self: flex-end;
+  padding: 0 20px;
+}
+
+main .bottom {
+  background-color: #F6CED8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 8px 0px #00000033;
+}
+
+main .bottom p {
+  color: #1E1E1E;
+}
+
+.contraindications {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contraindications span {
+  font-weight: normal;
+  font-size: initial;
+}
+
+.price {
+  transition: .5s;
+}
+
+.price:hover {
+  transform: scale(1.5);
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #A2D9D0;
+  padding: 20px 10px;
+}
+
+footer .email a {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
+footer .email a:hover {
+  text-decoration: underline;
+}
+
+footer .address,
+footer .hours,
+footer .contacts {
+  font-weight: bold;
+}
+
+/* QUEM SOMOS */
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.about_text p span {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+/* TRATAMENTOS */
+
+.treatments {
+  font-size: 1.5em;
+  color: #A2D9D0;
+  font-weight: bold;
+}
+
+/* FALE CONOSCO, AGENDAMENTO E TRABALHE CONOSCO */
+
+.form__contact_us,
+.form__agendamento,
+.form__work_us {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.form__contact_us input,
+.form__contact_us textarea,
+.form__work_us input,
+.form__work_us textarea {
+  background-color: transparent;
+  border: 1px solid #A2D9D0;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+
+.form__agendamento input,
+.form__agendamento textarea,
+.form__agendamento select,
+.form__agendamento option {
+  background-color: transparent;
+  border: 1px solid #C8A2C8;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+
+.form__contact_us input:focus,
+.form__contact_us textarea:focus,
+.form__agendamento input:focus,
+.form__agendamento textarea:focus,
+.form__agendamento select:focus,
+.form__agendamento option:focus,
+.form__work_us input:focus,
+.form__work_us textarea:focus {
+  outline: 1px solid #C8A2C8;
+  border: 1px solid #C8A2C8;
+}
+
+.form__agendamento input:focus,
+.form__agendamento textarea:focus,
+.form__agendamento select:focus,
+.form__agendamento option:focus {
+  outline: 1px solid #A2D9D0;
+  border: 1px solid #A2D9D0;
+}
+
+.form__contact_us textarea,
+.form__work_us textarea {
+  height: 100px;
+}
+
+.form__contact_us button,
+.form__agendamento button {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid #C8A2C8;
+  transition: .5s;
+}
+
+.form__work_us button {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid #A2D9D0;
+  transition: .5s;
+}
+
+.form__contact_us button:hover,
+.form__agendamento button:hover {
+  color: #FFF;
+  background-color: #C8A2C8;
+  border: 1px solid #000;
+}
+
+.form__work_us button:hover {
+  color: #FFF;
+  background-color: #A2D9D0;
+  border: 1px solid #000;
+}
+
+.form__agendamento h3 .confirm {
+  color: #A2D9D0;
+}
+
+.form__agendamento h3 .hour {
+  color: #C8A2C8;
+}
+
+@media (max-width: 1199px) {
+  .cards {
+    justify-content: center;
+  }
+}
