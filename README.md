@@ -13,17 +13,17 @@ Use sua criatividade para compor e desenvolver seu site com os seguintes itens:
 ** Tópico 1: Utilizar Javascript para desenvolver aplicações ReactJS **
 
 1.1 Aplicação em ReactJs;<br>
-1.2 Use  “var”, "let" e "const" para declarar variáveis em momentos oportunos;
-1.3 Use objetos e arrays;
-1.4 Use Template Strings; 
-1.5 Use condicionais e loops;
-1.6 Use funções simples;
-1.7 Use Arrow Functions;
-1.8 Use promises simples;
-1.9 Use Fetch para carregar os dados que serão exibidos na sua página de um arquivo “tratamentos.JSON”. Traga deste arquivo as informações de todos os tratamentos que devem ser exibidos: nome do tratamento, descrição, contraindicações, valor, imagem;
-1.10 Seu site deverá conter as informações e a aparência de uma Clínica de Estética. Use imagens e textos reais sobre o tema;
-1.11 Não use Hooks, use apenas os conceitos que vimos na disciplina de Fundamentos de React;
-1.12 O seu site deve conter os links: Quem somos, Tratamentos, Fale conosco (formulário), Formulário para agendamento e Trabalhe conosco (formulário);
+1.2 Use  “var”, "let" e "const" para declarar variáveis em momentos oportunos;<br>
+1.3 Use objetos e arrays;<br>
+1.4 Use Template Strings;<br>
+1.5 Use condicionais e loops;<br>
+1.6 Use funções simples;<br>
+1.7 Use Arrow Functions;<br>
+1.8 Use promises simples;<br>
+1.9 Use Fetch para carregar os dados que serão exibidos na sua página de um arquivo “tratamentos.JSON”. Traga deste arquivo as informações de todos os tratamentos que devem ser exibidos: nome do tratamento, descrição, contraindicações, valor, imagem;<br>
+1.10 Seu site deverá conter as informações e a aparência de uma Clínica de Estética. Use imagens e textos reais sobre o tema;<br>
+1.11 Não use Hooks, use apenas os conceitos que vimos na disciplina de Fundamentos de React;<br>
+1.12 O seu site deve conter os links: Quem somos, Tratamentos, Fale conosco (formulário), Formulário para agendamento e Trabalhe conosco (formulário);<br>
 1.13 Use a estrutura completa do HTML5.
 
 ** Tópico 2: Desenvolver componentes em uma interface **
