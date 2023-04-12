@@ -12,7 +12,7 @@ Use sua criatividade para compor e desenvolver seu site com os seguintes itens:
 
 ** Tópico 1: Utilizar Javascript para desenvolver aplicações ReactJS **
 
-1.1 Aplicação em ReactJs;
+1.1 Aplicação em ReactJs;<br>
 1.2 Use  “var”, "let" e "const" para declarar variáveis em momentos oportunos;
 1.3 Use objetos e arrays;
 1.4 Use Template Strings; 
